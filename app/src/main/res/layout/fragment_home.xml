@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fr_home"
+    android:background="@color/pink"
+    tools:context=".HomeFragment">
+
+    <RelativeLayout
+        android:id="@+id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        >
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="@string/home"
+            android:textColor="@color/ungutua"
+            android:textSize="36sp" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/judul2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/judul"
+            android:layout_marginTop="5dp">
+
+            <ImageView
+                android:id="@+id/foto1"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="100dp"
+                android:src="@drawable/rully" />
+
+            <TextView
+                android:id="@+id/nama"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:layout_below="@id/foto1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="9dp"
+                android:background="@drawable/bg1"
+                android:fontFamily="@font/poppins_regular"
+                android:text="Rully Fadia"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/desc"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_below="@id/nama"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/poppins_regular"
+                android:text="Deskripsi"
+                android:textAlignment="center"
+                android:textColor="@color/ungu"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/isidesc"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/desc"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/bg6"
+                android:fontFamily="@font/poppins_regular"
+                android:text=" Hallo! saya rully fadia bisa dipanggil rully. Saya saat ini sedang menempuh S1 di Universitas Komputer Indonesia atau bisa disebut UNIKOM, Saya jurusan Teknik Informatika. Saya berasal dari palembang "
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/interest"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_below="@id/isidesc"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/poppins_regular"
+                android:text="Interest"
+                android:textAlignment="center"
+                android:textColor="@color/ungu"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/interest"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="180dp"
+                        android:layout_height="match_parent"
+                        android:layout_below="@id/interest"
+                        android:background="@drawable/bg1"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imagegames"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:src="@drawable/ic_game" />
+
+                        <TextView
+                            android:id="@+id/textgames"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:text="Games"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="180dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:background="@drawable/bg1"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imagecita2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:src="@drawable/ic_cita_cita" />
+
+                        <TextView
+                            android:id="@+id/textcita2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:text="Data Analytics"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="180dp"
+                        android:layout_height="match_parent"
+                        android:layout_below="@id/interest"
+                        android:background="@drawable/bg1"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imagemakes"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:src="@drawable/ic_mie" />
+
+                        <TextView
+                            android:id="@+id/textmakes"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:text="Ramen"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="180dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:background="@drawable/bg1"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imagemikes"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:src="@drawable/ic_susu" />
+
+                        <TextView
+                            android:id="@+id/textmikes"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:text="Thai Tea"
+                            android:layout_marginRight="15dp"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

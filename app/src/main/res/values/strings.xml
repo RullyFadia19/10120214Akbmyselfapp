@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">10120214UTS</string>
+    <!-- Buttons !-->
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="back">BACK</string>
+    <string name="start">START</string>
+    <string name="getstarted">LETS GET STARTED</string>
+
+    <!-- Slide !-->
+    <string name="slide1">ME</string>
+    <string name="slide2">MYSELF</string>
+    <string name="slide3">AND I</string>
+
+    <!-- Deskripsi Slide !-->
+    <string name="ds1">Hallo everyone!</string>
+    <string name="ds2">This is My First Apps</string>
+    <string name="ds3">Welcome!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- JUDUL !-->
+    <string name="home">HOME</string>
+    <string name="daily">DAILY</string>
+    <string name="friends">FRIENDS</string>
+    <string name="media">MEDIA</string>
+    <string name="music">MUSIC</string>
+    <string name="video">VIDEO</string>
+    <string name="profile">PROFILE</string>
+
+
+</resources>
